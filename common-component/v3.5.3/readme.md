@@ -20,24 +20,26 @@
  - 제공받은 라이브러리를 다음 경로에(src\main\webapp\WEB-INF\lib) GPKI 라이브러리를 넣으시면 오류없이 사용이 가능합니다.
 2. GPKI 라이브러리를 사용하지 않으실 경우
  - 아래의 안내에 따라 조치하시면 오류를 제거하실 수 있습니다.
-============================================================================================
-2-1.pom.xml 파일에 주석처리(pom.xml 파일 참조 : GPKI 관련 dependency 2종)
-**************** pom.xml ****************
- <!-- GPKI인증서 로그인처리 라이브러리 -->
- <dependency>
- <groupId>kr.go.gpki</groupId>
- <artifactId>gpkisecureweb</artifactId>
- <version>1.0.4.9</version>
- <scope>system</scope>
- <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/gpkisecureweb-1.0.4.9.jar</systemPath>
- </dependency>
- <dependency>
- <groupId>kr.go.gpki</groupId>
- <artifactId>libgpkiapi_jni</artifactId>
- <version>1.4.0.0</version>
- <scope>system</scope>
- <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/libgpkiapi_jni-1.4.0.0.jar</systemPath>
- </dependency>
+============================================================================================<br>
+    2-1.pom.xml 파일에 주석처리(pom.xml 파일 참조 : GPKI 관련 dependency 2종)<br>
+**************** pom.xml ****************  
+``` xml
+    <!-- GPKI인증서 로그인처리 라이브러리 -->
+    <dependency>
+        <groupId>kr.go.gpki</groupId>
+        <artifactId>gpkisecureweb</artifactId>
+        <version>1.0.4.9</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/gpkisecureweb-1.0.4.9.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>kr.go.gpki</groupId>
+        <artifactId>libgpkiapi_jni</artifactId>
+        <version>1.4.0.0</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/libgpkiapi_jni-1.4.0.0.jar</systemPath>
+    </dependency>
+```
 *****************************************
 2-2. 관련 파일 삭제
 * GPKI 인증서
@@ -51,6 +53,7 @@ src/main/java/egovframework/com/utl/sec/web/EgovCertLoginController.java
  - 아래의 안내에 따라 조치하시면 오류를 제거하실 수 있습니다.
 ============================================================================================
 4-1.pom.xml 파일에 주석처리(pom.xml 파일 참조 : SMSI 관련 dependency 1종)
+``` xml
         <!--  M-Gov (SMS Service API) -->
         <dependency>
             <groupId>kr.go.mgov</groupId>
@@ -59,6 +62,7 @@ src/main/java/egovframework/com/utl/sec/web/EgovCertLoginController.java
             <scope>system</scope>
             <systemPath>${basedir}/src/main/webapp/WEB-INF/lib/smeapi_2_7.jar</systemPath>
         </dependency>
+```
 *****************************************
 4-2. 관련 파일 삭제
 * SMS 컴포넌트
