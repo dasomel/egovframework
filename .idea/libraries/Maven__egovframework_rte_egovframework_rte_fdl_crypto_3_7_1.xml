@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: egovframework.rte:egovframework.rte.fdl.crypto:3.7.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/egovframework/rte/egovframework.rte.fdl.crypto/3.7.1/egovframework.rte.fdl.crypto-3.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/egovframework/rte/egovframework.rte.fdl.crypto/3.7.1/egovframework.rte.fdl.crypto-3.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/egovframework/rte/egovframework.rte.fdl.crypto/3.7.1/egovframework.rte.fdl.crypto-3.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

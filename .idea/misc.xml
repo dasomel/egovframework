@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/common-component/v2.3.2/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.2.2/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.5.3/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.6.2/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.7.3/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.7.3-new/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.8.0/pom.xml" />
+        <option value="$PROJECT_DIR$/common-component/v3.9.0/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

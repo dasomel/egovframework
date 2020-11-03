@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-component/v2.3.2/common-v2.3.2.iml" filepath="$PROJECT_DIR$/common-component/v2.3.2/common-v2.3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.2.2/common-v3.2.2.iml" filepath="$PROJECT_DIR$/common-component/v3.2.2/common-v3.2.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.5.3/common-v3.5.3.iml" filepath="$PROJECT_DIR$/common-component/v3.5.3/common-v3.5.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.6.2/common-v3.6.2.iml" filepath="$PROJECT_DIR$/common-component/v3.6.2/common-v3.6.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.7.3/common-v3.7.3.iml" filepath="$PROJECT_DIR$/common-component/v3.7.3/common-v3.7.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.7.3-new/common-v3.7.3-new.iml" filepath="$PROJECT_DIR$/common-component/v3.7.3-new/common-v3.7.3-new.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.8.0/common-v3.8.0.iml" filepath="$PROJECT_DIR$/common-component/v3.8.0/common-v3.8.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-component/v3.9.0/common-v3.9.0.iml" filepath="$PROJECT_DIR$/common-component/v3.9.0/common-v3.9.0.iml" />
+    </modules>
+  </component>
+</project>
